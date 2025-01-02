@@ -1,9 +1,9 @@
 ## Coding Temple Module 4 Knowledge Check: HTML Content Assignment
 ***Submitted by Jeni Williams (GitHub @jenidub)***
 **Screenshots**
-<img src="https://drive.google.com/file/d/1I0fiPIKdVl-lfXSXfHqaE-01kWUU7W1k/view?usp=drive_link" alt="Module 4 Knowledge Check - Navbar, Image Gallery, and Form" style="height: 300; width:400px;"/>
+![Module 4 Knowledge Check Screenshot 1 - Navbar, Image Gallery, and Form](./M4KC%20Screenshot%201.png "Module 4 Knowledge Check Screenshot 1")
 
-<img src="https://drive.google.com/file/d/1C7EPVjFJdL4XtKJxQ2GdFHVprGCAYEPY/view?usp=drive_link" alt="Module 4 Knowledge Check Screenshot 2 - Table" style="height: 300; width:400px;"/>
+![Module 4 Knowledge Check Screenshot 2 - Table](./M4KC%20Screenshot%202.png "Module 4 Knowledge Check Screenshot 2")
 
 **Assignment Overview**
 Create an HTML page with the following four components:
