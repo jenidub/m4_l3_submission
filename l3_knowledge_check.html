@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Part 1: Form Creation -->
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Basic Information</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name here">
+            </div>
+            <div style="margin: 20px 0px;">
+                <label for="user-email">Email:</label>
+                <input type="email" id="user-email" name="user-email" placeholder="Enter your email">
+            </div>
+            <div style="margin: 20px 0px;">
+                <p>How Did You Find Us?</p>
+                <input type="radio" id="google" name="source" value="google">
+                <label for="google" style="margin-right: 20px;">Google Search</label>
+                <input type="radio" id="word-of-mouth" name="source" value="word-of-mouth">
+                <label for="word-of-mouth" style="margin-right: 20px;">Word of Mouth</label>
+                <input type="radio" id="social" name="source" value="social">
+                <label for="social" id="social" style="margin-right: 20px;">Social Media</label>
+                <input type="radio" id="other" name="source" value="other">
+                <label for="other" id="other" style="margin-right: 20px;">Other</label>
+            </div>       
+        </fieldset>
+        <fieldset>
+            <legend>Message</legend>
+            <div style="margin: 20px 0px;">
+                <label for="message"></label>
+                <textarea id="message" name="message" rows="5" cols="50"></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" value="Submit" style="margin: 20px 0px;">
+    </form>
+    <!-- Part 2: Table Structure -->
+     <table>
+        <tr style="text-align: left;">
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Logitech K480 Keyboard and Mouse Set</td>
+            <td>$49.99</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Logitech Pop Icon Keyboard and Mouse Set</td>
+            <td>$69.99</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Logitech Ultimate Productivity Bundle</td>
+            <td>$349.99</td>
+            <td>3</td>
+        </tr>
+     </table>
+</body>
+</html>
