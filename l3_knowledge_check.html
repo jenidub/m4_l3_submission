@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>M4L3 Knowledge Check</title>
 </head>
 <body>
     <!-- Part 3: Navigation Bar -->
+    <!-- Goal: Create a simple navigation bar with Home, About, Contact as links -->
     <nav style="width: 100%;">
+        <!-- Bonus Styling: Use flex to align links horizontally, remove bullet points from <ul>, capitalize link names -->
         <ul style="display: flex; justify-content: space-evenly; list-style-type: none; text-transform: capitalize;">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -17,12 +19,14 @@
     <br>
 
     <!-- Part 4: Add Header Images -->
+    <!-- Goal: Add 2 placeholder images using placehold.co image 300x200px, one with rounded border (bonus) -->
     <header style="display: flex; justify-content: center; margin: 0 auto;">
         <img src="https://placehold.co/300x200" alt="Placeholder Image #1" style="padding: 20px;">
         <img src="https://placehold.co/300x200" alt="Placeholder Image #2" style="padding: 20px; border-radius: 50px;">
     </header>
 
     <!-- Part 1: Form Creation -->
+    <!-- Goal: Create a form with fields for Name, Email, Message and a submit button -->
     <form action="#" method="POST">
         <fieldset>
             <legend>Basic Information</legend>
@@ -34,6 +38,7 @@
                 <label for="user-email">Email:</label>
                 <input type="email" id="user-email" name="user-email" placeholder="Enter your email">
             </div>
+            <!-- Bonus: Radio Button Group asking the user how they found the site-->
             <div style="margin: 20px 0px;">
                 <p>How Did You Find Us?</p>
                 <input type="radio" id="google" name="source" value="google">
@@ -58,6 +63,8 @@
     <br>
     <br>
     <!-- Part 2: Table Structure -->
+    <!-- Goal: Create a table that displays product data with the columns/header row (bonus)
+    for Product Name, Price and Quantity -->
      <table style="border: 1px solid black;">
         <caption style="margin: 10px 0px; font-weight: bolder; text-transform: uppercase;">Product List</caption>
         <tr style="text-align: left;">
