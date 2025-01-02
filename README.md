@@ -1,4 +1,4 @@
-## Coding Temple Module 4 Knowledge Check: HTML Content Assignment\
+## Coding Temple Module 4 Knowledge Check: HTML Content Assignment
 **Screenshots**
 ![Module 4 Knowledge Check Screenshot 1 - Navbar, Image Gallery, and Form](./M4KC%20Screenshot%201.png "Module 4 Knowledge Check Screenshot 1")
 
